@@ -28,10 +28,12 @@
     function setup() {
       createCanvas(window.innerWidth, window.innerHeight, WEBGL);
       img = createVideo("./1.mov");
+
       img.hide();
     }
     function draw() {
       background("#B17844");
+
       push();
       rotateZ(frameCount * 0.001);
       rotateX(frameCount * 0.001);
